@@ -33,11 +33,13 @@
 
 #navbar ul{
     display: flex;
-    justify-content: center;}
+    justify-content: center;
+}
 
 #navbar ul li{
     list-style: none;
-    font-size: 1.3rem;
+    font-family: 'Baloo 2', sans-serif;
+    font-size: 1.1rem;
 }
 
 #navbar ul li a{
@@ -74,4 +76,13 @@
     opacity: 0.9;
 }
 
+#home h1{
+    font-family: 'Bree Serif', serif;
+    text-align: center;
+}
 
+#home p{
+    font-family: 'Bree Serif', serif;
+    text-align: center; 
+    font-size: 0.8rem;
+}

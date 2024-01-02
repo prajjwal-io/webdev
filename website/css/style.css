@@ -60,7 +60,7 @@
     display: flex;
     flex-direction: column;
     padding: 3px 200px;
-    height: 400px;
+    height: 460px;
     align-items: center;
     justify-content: center;
 
@@ -76,6 +76,28 @@
     opacity: 0.9;
 }
 
+/* services */
+#services{
+    display: flex;
+    margin: 34px;
+    flex-wrap: wrap;
+}
+
+#services .box{
+    flex: 1;
+    padding: 20px;
+    margin: 10px;
+    background-color: #f1f1f1;
+    box-shadow: 27px 26px 40px rgba(0, 0, 6, 0.1);
+    border-radius: 20px;
+    text-align: center;
+}
+
+#services .box img{
+   height: 100px;
+}
+
+/* Utilities styling */
 #home h1{
     font-family: 'Bree Serif', serif;
     text-align: center;
@@ -85,4 +107,37 @@
     font-family: 'Bree Serif', serif;
     text-align: center; 
     font-size: 0.8rem;
+}
+
+.h-primary{
+    font-size: 2.5rem;
+    margin-bottom: 20px;
+    font-family: 'Bree Serif', serif;
+}
+
+.h-secondary{
+    font-size: 1.7rem;
+    margin-bottom: 20px;
+    font-family: 'Bree Serif', serif;
+    margin-top: 28px;
+    text-align: center;
+}
+
+.btn{
+    padding: 10px 30px;
+    background-color: black;
+    color: white;
+    border-radius: 20px;
+    margin-top: 20px;
+    font-family: 'Bree Serif', serif;
+    font-size: 1.1rem;
+    cursor: pointer;
+}
+.btn:hover{
+    background-color: white;
+    color: black;
+}
+
+.center{
+    text-align: center;
 }

@@ -44,3 +44,9 @@ function avg(a, b){
 c1 = avg(4, 6);
 c2 = avg(14, 16);
 console.log(c1, c2);
+
+// loops in javascript
+i= 0;
+for(; i<10; i++){
+    console.log(i);
+}

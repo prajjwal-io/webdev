@@ -50,3 +50,36 @@ i= 0;
 for(; i<10; i++){
     console.log(i);
 }
+
+let friends = ['Prajjwal', 'Shubham', 'Ravi', 'Harry', 'Rohan'];
+
+// for(let i=0; i<friends.length; i++){
+//     console.log(friends[i]);
+// }
+
+// friends.forEach(function f(element){
+//     console.log(element);
+// }
+// );
+
+// modern jaavscript
+for (element of friends){
+    console.log("Hello friend, " + element);
+}
+
+let employee = {
+    name: "Prajjwal",
+    salary: 100000,
+    channel: "pjMaster",
+    address: "Bengaluru"
+}
+
+for(key in employee){
+    console.log(`The ${key} of employee is ${employee[key]}`);
+}
+
+i = 0;
+while(i<5){
+    console.log(`Number is ${i} and is less than 5`);
+    i++;
+}
